@@ -5,7 +5,7 @@
 출처2 : https://towardsdatascience.com/regression-prediction-intervals-with-xgboost-428e0a018b
 
 
-
+```
 #XGBoost hyper-parameter tuning
 def hyperParameterTuning(X_train, y_train):
     param_tuning = {
@@ -32,3 +32,4 @@ def hyperParameterTuning(X_train, y_train):
     gsearch.fit(X_train,y_train)
 
     return gsearch.best_params_
+```
